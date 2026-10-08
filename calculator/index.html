@@ -1,0 +1,39 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>電卓</title>
+</head>
+<body>
+  <!-- ナビゲーション -->
+  <nav>
+    <ul>
+      <li><a href="../index.html">トップ</a></li>
+      <li><a href="../profile/index.html">プロフィール</a></li>
+      <li><a href="../works/index.html">作品一覧</a></li>
+      <li><a href="../calculator/index.html">電卓</a></li>
+      <li><a href="github-search/index.html">GitHub検索</a></li> 
+    </ul>
+  </nav>
+  <h1>電卓</h1>
+  <!-- 値1 -->
+  <label>値1: <input type="number" id="num1"></label><br><br>
+  <!-- 演算子 -->
+  <label>演算子:
+    <select id="operator">
+      <option value="+">＋ 足し算</option>
+      <option value="-">－ 引き算</option>
+      <option value="*">× 掛け算</option>
+      <option value="/">÷ 割り算</option>
+    </select>
+  </label><br><br>
+  <!-- 値2 -->
+  <label>値2: <input type="number" id="num2"></label><br><br>
+  <!-- 結果表示エリア -->
+  <p id="result">両方の数値を入力してください</p>
+  <script src="calculator.js"></script>
+</body>
+</html>
